@@ -1,9 +1,11 @@
+import Dice from './Dice';
+import RollDice from './RollDice';
 import './css/App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <RollDice />
     </div>
   );
 }
